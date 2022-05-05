@@ -1,0 +1,6 @@
+How Battleship is Played
+Battleship is a 2-person game, and the objective is to sink your opponent’s ships. It is played on an N x N board, where 5 ≤ N ≤ 10, and the rows are labeled with letters and columns are labeled with numbers. To begin, each player will secretly place their ships on their respective same-sized boards so that the opponent doesn't know the location of them. The amount of ships each player has is determined by the size of the board, and the ships must be placed horizontally or vertically without overlapping each other or extending past the edge of the board. 
+
+After this setup is done, one of the two players randomly chosen to go first. This player will guess a location on the board, for example D9, and the opponent must determine if that location corresponds to a ship on their board. If so, they respond with “hit”. Otherwise, they respond with “miss”. After this, the other player will get their turn at guessing, and this repeated cycle of alternating guesses continues until a winner is determined.
+
+The first player to sink all of their opponents ships is the winner. A ship is defined as sunk when all locations of the ship have been “hit”. For example, if we have a 4 x 1 ship placed on locations A0, A1, A2, and A3, the ship is sunk when the opponent has guessed these 4 locations.
