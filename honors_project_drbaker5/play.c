@@ -415,14 +415,14 @@ void print_ship_board(game * current_game, player * current_player) {
 void print_attack_grid(game * current_game, player * current_player) {
     printf("\n");
     for (int i = 0; i < current_game->side_length; i++){
-        if (i == 5){
+        if (i == 6){
             printf("y");
             continue;
         }
         printf("  ");
     }
     printf("\n\n");
-    printf("    ");
+    printf("     ");
     for (int i = 0; i < current_game->side_length; i++){
         printf("%d ", (i+1));
     }
@@ -465,9 +465,9 @@ void delay (int seconds) {
 }
 
 void print_cover(){
-    printf("\n---------------------------------------------------------------------------------------");
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("\n---------------------------------------------------------------------------------------\n");
+    printf("\n--------------------------------------------------------------------------------------------------------");
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    printf("\n--------------------------------------------------------------------------------------------------------\n");
 }
 
 void print_line(){
